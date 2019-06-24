@@ -1,0 +1,423 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic');
+@import "paragraphs.css";
+
+body{
+  font-family: 'Open Sans';
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 64px;
+  background-color: #CD212C;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+z-index: 100;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 119.2%;
+  width: 330px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  margin-left: 24px;
+  text-decoration: none;
+}
+
+.descriptor {
+  width: 282px;
+  height: 42px;
+  margin-top: 1px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 23px;
+  margin-right: 24px;
+}
+
+header ul li a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+header ul li {
+  margin-right: 64px;
+}
+header ul li:last-child {
+  margin-right: 0;
+}
+
+.brandingHeader {
+  width: 178px;
+}
+
+.posterHeader {
+  width: 84px;
+  font-weight: 700;
+}
+
+.spaceHeader {
+  width: 132px;
+}
+
+.rebrandingHeader {
+  width: 113px;
+}
+
+
+.brandingHeader a:hover {
+  font-weight: 700;
+}
+
+.spaceHeader a:hover {
+  font-weight: 700;
+}
+
+.rebrandingHeader a:hover {
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+.posterIntro {
+  background-color: #CD212C;
+  color: white;
+  display: inline-block;
+  height: 947px;
+}
+
+.posterIntro h1 {
+  margin-top: 180px;
+  margin-left: 180px;
+  margin-bottom: 42px;
+  width: 1084px;
+  line-height: 98%;
+}
+
+.posterIntro p {
+  margin-left: 180px;
+}
+
+.posterIntro img {
+  margin-top: -600px;
+  width: 100%;
+}
+
+.firstTypoSection {
+  margin-left: 180px;
+}
+
+.glazaPoster1 {
+  position: absolute;
+  right: 0;
+  right: 180px;
+}
+
+.firstSmallContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 1318px;
+  margin-left: -93px;
+}
+
+.firstSmallContainer div {
+  margin-top: 450px;
+}
+
+.firstSmallContainer h3 {
+  margin-bottom: 12px;
+}
+
+.secondTypoSection div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1324px;
+  margin-left: 498px;
+  margin-top: -400px;
+}
+
+.secondTypoSection p {
+  margin-top: 450px;
+}
+
+.thirdTypoSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.thirdTypoSection div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1471px;
+}
+
+.thirdTypoSection p {
+  margin-top: 12px;
+  margin-left: 310px;
+}
+
+.fourthTypoSection {
+  width: 1552px;
+  margin-left: 180px;
+  display: inline-block;
+  margin-top: 64px;
+  height: 1839px;
+}
+
+.fourthTypoSection .postersContainer {
+  position: absolute;
+  left: 173px;
+  top: 5000px;
+}
+
+.typoPoster6 {
+  position: absolute;
+  left: 565px;
+}
+
+.typoPoster7 {
+  position: absolute;
+  left: 175px;
+  top: 4450px;
+}
+
+.typoPoster8 {
+  position: absolute;
+  right: 131px;
+  top: 4440px;
+}
+
+.fourthTypoSection h3 {
+  margin-bottom: 12px;
+}
+
+.firstGraphoSection {
+  margin-left: 180px;
+}
+
+.secondSmallContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 1318px;
+  margin-left: -93px;
+}
+
+.secondSmallContainer div {
+  margin-top: 450px;
+}
+
+.secondSmallContainer h3 {
+  margin-bottom: 12px;
+}
+
+.secondGraphoSection div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1324px;
+  margin-left: 498px;
+  margin-top: -400px;
+}
+
+.secondGraphoSection p {
+  margin-top: 533px;
+}
+
+.thirdGraphoSection {
+  margin-left: 180px;
+}
+
+.glazaPoster4 {
+  position: absolute;
+  right: 0;
+  right: 180px;
+}
+
+.thirdSmallContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 1318px;
+  margin-left: -93px;
+}
+
+.thirdSmallContainer div {
+  margin-top: 604px;
+}
+
+.fourthGraphoSection {
+  width: 1552px;
+  margin-left: 180px;
+  margin-top: 64px;
+  height: 1657px;
+}
+
+.graphoPoster4 {
+  position: absolute;
+  left: 162px;
+}
+
+.graphoPoster5 {
+  position: absolute;
+  left: 951px;
+}
+
+.graphoPoster6 {
+  position: absolute;
+  top: 9432px;
+  left: 951px;
+}
+
+
+
+
+
+
+.moreFooter {
+  width: 100%;
+  background-color: #CD212C;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.moreFooter a {
+  color: white;
+}
+
+.moreFooter h1 {
+  width: 1011px;
+  margin-top: 64px;
+  margin-bottom: 42px;
+}
+
+
+.moreFooter ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 64px;
+  width: 1566px;
+}
+
+.moreFooter ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainFooter {
+  background-color: #CD212C;
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: -5px;
+}
+
+.mainFooter a {
+  color: white;
+}
+
+.mainFooter ul {
+  display: flex;
+  flex-direction: row;
+  height: 175px;
+  width: 1419px;
+  margin-left: 192px;
+  margin-top: 106px;
+  margin-right: 292px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logos {
+  display: flex;
+  width: 280px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.me {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.me h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.heads {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heads h3 {
+  font-weight: 700;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.heads h4 {
+  margin-bottom: 16px;
+}
+
+.pages1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pages2 {
+  display: flex;
+  flex-direction: column;
+  height: 97px;
+  justify-content: space-between;
+}
+
+.tittleContainer {
+  font-size: 13px;
+  margin: 0px 24px 24px 24px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.tittleContainer span {
+  height: 18px;
+}
+
+.smallestContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}

@@ -1,0 +1,26 @@
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+P {
+  font-size: 26px;
+  line-height: 134%;
+  width: 606px;
+}
+
+h2 {
+  font-size: 58px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+@media (max-width:1440px) {
+  p {
+    width: 566px;
+  }
+}

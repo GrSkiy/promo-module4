@@ -1,0 +1,493 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic');
+@import "paragraphs.css";
+
+body{
+  font-family: 'Open Sans';
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 64px;
+  background-color: #CD212C;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 119.2%;
+  width: 330px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  margin-left: 24px;
+  text-decoration: none;
+}
+
+.descriptor {
+  width: 282px;
+  height: 42px;
+  margin-top: 1px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 23px;
+  margin-right: 24px;
+}
+
+header ul li a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+header ul li {
+  margin-right: 64px;
+}
+header ul li:last-child {
+  margin-right: 0;
+}
+
+.brandingHeader {
+  width: 178px;
+  font-weight: 700;
+}
+
+.posterHeader {
+  width: 84px;
+}
+
+.spaceHeader {
+  width: 132px;
+}
+
+.rebrandingHeader {
+  width: 113px;
+}
+
+
+.posterHeader a:hover {
+  font-weight: 700;
+}
+
+.spaceHeader a:hover {
+  font-weight: 700;
+}
+
+.rebrandingHeader a:hover {
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+.brandingIntro {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 42px;
+  width: 750px;
+}
+
+p {
+  font-size: 26px;
+  line-height: 134%;
+  width: 606px;
+}
+
+.introContainer {
+  margin-top: 180px;
+  margin-left: 180px;
+}
+
+.brandingIntro img {
+  width: 1076px;
+  height: 800px;
+  margin-left: -50px;
+  margin-top: 100px;
+}
+
+.brandingReferences {
+  width: 1556px;
+  height: 1590px;
+  margin-top: 100px;
+  margin-left: 180px;
+}
+
+.bigBro {
+  position: relative;
+}
+
+.obey {
+  position: relative;
+
+  top: 24px;
+  left: 158px;
+}
+
+.construct {
+  position: relative;
+  bottom: 447px;
+  left: 180px;
+
+}
+
+.referenceContainer {
+  position: relative;
+  width: 606px;
+  left: 632px;
+  bottom: 412px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.brandingPhylosophy {
+  margin-top: 180px;
+}
+
+.phylosophyContainer {
+  background-image: url(../img/glaza.png);
+  height: 977px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phyloText {
+  margin-top: 88px;
+}
+
+.phylosophyContainer p {
+  width: 744px;
+}
+
+.sloganContainer {
+  width: 997px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 452px;
+}
+
+h5 {
+  margin-bottom: -12px;
+}
+
+.smallContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #9F9F9F;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: -307px;
+}
+
+.slogan {
+  width: 1000px;
+  color: #CD212C;
+}
+
+.brandingFlags {
+  color: white;
+  background-color: #CD212C;
+  display: inline-block;
+  width: 100%;
+  height: 1400px;
+  margin-top: 128px;
+}
+
+.massContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1250px;
+  margin-top: 64px;
+  margin-left: 160px;
+}
+
+h2 {
+  font-size: 58px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.contentContainer p {
+  margin-bottom: 120px;
+}
+
+.contentContainer img {
+  margin-bottom: 50px;
+}
+
+.contentContainer {
+  margin-top: 50px;
+}
+
+.brandingLogo {
+  width: 1244px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 340px;
+  margin-top: 180px;
+}
+
+.searchLogo {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  height: 2500px;
+}
+
+.brandingLogo h2 {
+  margin-bottom: 128px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1160px;
+  margin-left: 80px;
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  width: 1107px;
+  margin-left: -144px;
+}
+
+.third {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.third p {
+  width: 700px;
+}
+.searchLogo .block {
+  height: 100px;
+}
+
+.third .block {
+  height: 24px;
+}
+
+.fourth {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1244px;
+}
+
+.fifth {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  width: 1024px;
+  margin-left: -212px;
+}
+
+.finalLogo {
+  margin-top: 180px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.finalContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  height: 558px;
+}
+
+.finalContainer p {
+  width: 759px;
+}
+
+
+
+.brandingIdentity h2 {
+  margin-bottom: 128px;
+}
+
+.brandingIdentity {
+  margin-top: 180px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brandingIdentity img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+.moreFooter {
+  width: 100%;
+  background-color: #CD212C;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.moreFooter a {
+  color: white;
+}
+
+.moreFooter h1 {
+  width: 1011px;
+  margin-top: 64px;
+}
+
+
+.moreFooter ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 64px;
+  width: 1566px;
+}
+
+.moreFooter ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainFooter {
+  background-color: #CD212C;
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: -5px;
+}
+
+.mainFooter a {
+  color: white;
+}
+
+.mainFooter ul {
+  display: flex;
+  flex-direction: row;
+  height: 175px;
+  width: 1419px;
+  margin-left: 192px;
+  margin-top: 106px;
+  margin-right: 292px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logos {
+  display: flex;
+  width: 280px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.me {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.me h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.heads {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heads h3 {
+  font-weight: 700;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.heads h4 {
+  margin-bottom: 16px;
+}
+
+.pages1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pages2 {
+  display: flex;
+  flex-direction: column;
+  height: 97px;
+  justify-content: space-between;
+}
+
+.tittleContainer {
+  font-size: 13px;
+  margin: 0px 24px 24px 24px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.tittleContainer span {
+  height: 18px;
+}
+
+.smallestContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
