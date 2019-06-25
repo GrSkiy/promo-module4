@@ -1,6 +1,5 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic');
-@import "paragraphs.css";
 
 body {
   overflow-x: hidden;
@@ -9,6 +8,14 @@ body {
 
 a {
   text-decoration: none;
+}
+
+p {
+  font-size: 26px;
+}
+
+.mainSmallFooter {
+  display: none;
 }
 
 header {
@@ -96,7 +103,17 @@ header ul li:last-child {
   font-weight: 700;
 }
 
+.burger {
+  display: none;
+}
 
+.cross {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
 
 
 
@@ -185,6 +202,8 @@ section h1 {
 
 section p {
   margin-bottom: 64px;
+  line-height: 134%;
+  width: 606px;
 }
 
 section h2 {
@@ -342,9 +361,10 @@ section span {
     margin-left: 142px;
   }
   .rebranding {
-    margin-left: 9px;
-    width: 1286px;
+    margin-left: 22px;
+    width: 1305px;
     margin-right: 142px;
+    margin-top: -252px;
   }
   .rebranding .spionMain {
     width: 684px;
@@ -353,9 +373,9 @@ section span {
 
 
 
-.mainFooter {
-  width: 100%;
-}
+  .mainFooter {
+    width: 100%;
+  }
   .mainFooter ul {
     margin-left: 144px;
     width: 1044px;
@@ -371,5 +391,493 @@ section span {
   .logos img {
     width: 40px;
     height: 40px;
+  }
+}
+
+
+@media (max-width: 1152px) {
+  header ul li a {
+    font-size: 15px;
+  }
+
+  header ul {
+    width: 675px;
+}
+
+
+
+
+
+  section h1 {
+      font-size: 45px;
+      font-weight: 700;
+      margin-bottom: 16px;
+  }
+
+  section h2 {
+    font-size: 15px;
+  }
+
+  section p {
+  font-size: 20px;
+  width: 445px;
+  }
+  .brandingIntroContainer {
+    width: 931px;
+  }
+  .brandingIntroContainer h1 {
+    font-size: 64px;
+    width: 612px;
+  }
+
+  .brandingIntroContainer ul li {
+    font-size: 30px;
+    width: 265px;
+    margin-bottom: 12px;
+  }
+
+
+  .identityMain {
+    width: 951px;
+    height: 710px;
+  }
+  .branding {
+    margin-left: 118px;
+    margin-top: 118px;
+  }
+
+  section span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #CD212C;
+    margin-right: 12px;
+}
+
+  .link a img {
+    width: 51px;
+    height: 11px;
+  }
+
+  .imgContainer {
+    width: 444px;
+    height: 663px;
+  }
+  .imgContainer img {
+    width: 214px;
+    height: 321px;
+  }
+  .posters {
+    margin-left: 20px;
+    width: 1010px;
+    margin-top: -200px;
+  }
+  .space {
+    margin-left: 118px;
+  }
+
+  .booksSpace {
+    width: 966px;
+    height: 864px;
+  }
+  .rebranding {
+    margin-left: 9px;
+    width: 1022px;
+    margin-right: 118px;
+    margin-top: -50px;
+  }
+  .rebranding .spionMain {
+    width: 539px;
+    height: 700px;
+  }
+
+  .mainFooter {
+    display: none;
+  }
+
+  .mainSmallFooter {
+    display: inline-block;
+    width: 100%;
+    background-color: #CD212C;
+    color: white;
+    margin-top: -10px;
+  }
+
+  .mainSmallFooter a {
+    color: white;
+  }
+
+  .massSmallFooterContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 12px;
+    height: 528px;
+  }
+  .lessSmallFooterContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px 25px 25px;
+  }
+  .smallFooterContainer1 h4 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .smallFooterContainer2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 250px;
+    margin-left: 91px;
+  }
+
+  .smallFooterContainer2 h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+
+  .smallFooterContainer2 h4 {
+    margin-bottom: 25px;
+  }
+
+  .smallFooterContainer3 {
+    display: flex;
+    justify-content: space-between;
+    width: 259px;
+  }
+  .lessSmallFooterContainer span {
+    font-size: 13px;
+    max-width: 555px;
+    min-width: 0px;
+  }
+}
+
+@media (max-width: 834px) {
+  .menu {
+    background-color: #CD212C;
+    width: 100%;
+    height: 158px;
+    align-items: center;
+    position: absolute;
+  }
+
+  .menu ul {
+    display: flex;
+    justify-content: space-between;
+    width: 739px;
+    align-items: center;
+    margin-left: 47px;
+    margin-right: 47px;
+    padding-top: 35px;
+  }
+  .menu ul li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  section span {
+    margin-right: 0px;
+}
+
+  .menu ul li span {
+    font-size: 24px;
+    color: white;
+  }
+
+  #first {
+    width: 158px;
+    line-height: 138.7%;
+  }
+
+  #second, #third, #fourth {
+    margin-left: 36px;
+  }
+
+  .brandingHeader, .posterHeader, .spaceHeader, .rebrandingHeader {
+    display: none;
+  }
+
+  .descriptor {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    margin-top: 16px;
+    margin-right: 25px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .cross {
+    display: none;
+    margin-top: 16px;
+    margin-right: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+    header ul {
+      width: auto;
+      margin-top: 0;
+      margin-right: 0;
+  }
+
+
+
+
+
+  section h2 {
+    font-size: 12px;
+    margin-bottom: 16px
+  }
+  section h1 {
+    margin-bottom: 12px;
+  }
+
+  section p {
+    font-size: 18px;
+    width: 381px;
+    margin-bottom: 40px;
+  }
+  .brandingIntroContainer {
+   width: 756px;
+  }
+  .brandingIntroContainer h1 {
+    font-size: 48px;
+    width: 612px;
+  }
+
+  .brandingIntroContainer ul li {
+    font-size: 30px;
+    width: 265px;
+    margin-bottom: 12px;
+  }
+
+  .identityMain {
+    width: 522px;
+    height: 390px;
+    margin-top: 280px;
+    margin-left: -181px;
+  }
+
+  .branding {
+    margin-left: 125px;
+    margin-top: 125px;
+  }
+
+  section span {
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+  .imgContainer {
+    width: 381px;
+    height: 571px;
+  }
+  .imgContainer img {
+    width: 184px;
+    height: 277px;
+  }
+
+  .posters {
+    margin-top: -100px;
+    width: 786px;
+  }
+
+  .flexContainer2 {
+    margin-top: 300px;
+  }
+  .booksSpace {
+    width: 846px;
+    height: 756px;
+    margin-top: 128px;
+    margin-left: -188px;
+  }
+  .flexContainer3 {
+    margin-top: 113px;
+  }
+
+  .rebranding .spionMain {
+    width: 381px;
+    height: 494px;
+  }
+
+  .rebranding {
+    margin-left: 9px;
+    width: 792px;
+    margin-right: 118px;
+    margin-top: -112px;
+  }
+
+  .flexContainer4 {
+    margin-top: 156px;
+  }
+}
+
+@media (max-width: 414px) {
+  .menu {
+    height: 674px;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    width: 0;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .menu ul li {
+    margin-bottom: 140px;
+  }
+
+  #first {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #second {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #third {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #fourth {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+
+
+
+
+
+  .brandingIntroContainer h1 {
+    font-size: 48px;
+    width: 364px;
+    line-height: 138%;
+  }
+
+  .brandingIntroContainer ul {
+    margin-left: 187px;
+    margin-top: -53px;
+  }
+
+  .brandingIntroContainer ul li {
+    font-size: 24px;
+    width: 214px;
+    margin-bottom: 12px;
+  }
+
+  .brandingIntroContainer {
+    width: 364px;
+    flex-direction: column;
+    margin-top: 64px;
+  }
+
+  .branding {
+    flex-direction: column;
+    margin-left: 16px;
+    margin-top: 64px;
+  }
+
+  .identityMain {
+    width: 388px;
+    height: 321px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .posters {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .space {
+    flex-direction: column;
+    margin-left: 16px;
+    margin-top: 64px;
+  }
+
+  .rebranding {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 64px;
+  }
+
+  .booksSpace {
+    width: 380px;
+    height: 340px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  section h1 {
+    margin-bottom: 12px;
+    width: 250px;
+  }
+
+  .introButton {
+    display: none;
+  }
+
+  section h1 {
+    font-size: 36px;
+    width: 250px;
+  }
+
+  .flexContainer2 {
+    margin-top: 64px;
+    margin-left: 16px;
+    height: 275px;
+  }
+
+  .flexContainer3 {
+    height: 291px;
+  }
+
+  .imgContainer {
+    margin-left: 24px;
+  }
+
+  .flexContainer4 {
+    margin-top: 0;
+    margin-left: 16px;
+  }
+    .spionMain {
+    margin-left: 16px;
+    margin-top: 64px;
+  }
+
+
+
+  .lessSmallFooterContainer {
+    flex-direction: column;
+  }
+
+  .lessSmallFooterContainer span {
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+
+  .smallFooterContainer2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 250px;
+    margin-left: 0;
   }
 }

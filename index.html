@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Промо-сайт проекта Горгород</title>
   <link rel="stylesheet" href="styles/mainPage.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <header>
@@ -17,8 +18,34 @@
       <li class="posterHeader"><a href="index3.html">Плакаты</a></li>
       <li class="spaceHeader"><a href="index4.html">Пространство</a></li>
       <li class="rebrandingHeader"><a href="index5.html">Ребрендинг</a></li>
+      <img class="burger" src="img/burger.svg" alt="">
+      <img class="cross" src="img/cross.svg" alt="">
     </ul>
   </header>
+  <section class="menu">
+    <ul>
+      <li>
+        <a href="#">
+          <span id="first">Фирменный стиль</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span id="second">Плакаты</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span id="third">Пространство</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span id="fourth">Ребрендинг</span>
+        </a>
+      </li>
+    </ul>
+  </section>
   <section class="brandingIntro">
     <div class="brandingIntroContainer">
       <h1>Этот промо сайт о</h1>
@@ -54,7 +81,7 @@
       <h1>Плакаты</h1>
       <p>Помимо фирменного стиля были разработаны серии графических и&nbsp;типографических плакатов. Помимо этого так-же был разработан веб-плакат.</p>
       <div class="link">
-        <a href="index3.html"><span>Узнать больше</span><img src="img/arrow.svg" alt="arrow"></a>
+        <a href="index3.html"><span>Узнать больше</span><img id="buttonImg" src="img/arrow.svg" alt="arrow"></a>
       </div>
     </div>
     <a href="index3.html"><div class="imgContainer">
@@ -73,7 +100,7 @@
         <a href="index4.html"><span>Узнать больше</span><img src="img/arrow.svg" alt="arrow"></a>
       </div>
     </div>
-    <a href="index4.html"><img src="img/spaceMain.png" alt="space"></a>
+    <a href="index4.html"><img class="booksSpace" src="img/spaceMain.png" alt="space"></a>
   </section>
   <section class="rebranding">
     <div class="flexContainer4">
@@ -121,6 +148,42 @@
         <a href="https://design.hse.ru"><img class="hseLogo" src="img/hseLogoWhite.png" alt=""></a>
       </div>
     </div>
+    <div class="mainSmallFooter">
+      <div class="massSmallFooterContainer">
+        <div class="smallFooterContainer1">
+          <a href="index.html"><h4>Главная</h4></a>
+          <a href="index2.html"><h4>Фирменный стиль</h4></a>
+          <a href="index3.html"><h4>Плакаты</h4></a>
+          <a href="index4.html"><h4>Многостраничник</h4></a>
+          <a href="index5.html"><h4>Ребрендинг</h4></a>
+        </div>
+        <div class="smallFooterContainer2">
+          <div class="smallestFooterContainer1">
+            <h3>Автор</h3>
+            <a href="https://portfolio.hse.ru/User/10417"><h4>Gr.Skiy</h4></a>
+          </div>
+          <div class="smallestFooterContainer2">
+            <h3>Кураторы</h3>
+            <a href="https://design.hse.ru/team/345"><h4>Евгения Ломакина</h4></a>
+            <a href="https://design.hse.ru/team/4249"><h4>Захар день</h4></a>
+          </div>
+        </div>
+        <div class="smallFooterContainer3">
+          <a href="https://vk.com/1seppuku1"><img src="img/vcLogo.svg" alt="vс"></a>
+          <a href="https://www.facebook.com/greg.narinskiy"><img src="img/fbLogo.svg" alt="fb"></a>
+          <a href="https://www.instagram.com/gr.skiy/"><img src="img/instLogo.svg" alt="inst"></a>
+        </div>
+      </div>
+      <div class="lessSmallFooterContainer">
+        <div class="smallestContainer">
+          <div class="block"></div>
+          <span>Проект студента первого курса профиля «Дизайн и программирование». Школа дизайна НИУ ВШЭ. Наринского Григория. © 2019</span>
+        </div>
+        <a href="https://design.hse.ru"><img class="hseLogo" src="img/hseLogoWhite.png" alt=""></a>
+      </div>
+    </div>
   </footer>
+
+  <script src="JS/script.js" charset="utf-8"></script>
 </body>
 </html>

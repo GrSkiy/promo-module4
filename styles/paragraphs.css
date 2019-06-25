@@ -24,3 +24,29 @@ h3 {
     width: 566px;
   }
 }
+
+@media (max-width:1152px) {
+  h1 {
+    font-size: 64px;
+  }
+  p {
+    width: 445px;
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 834px) {
+  h1 {
+    font-size: 48px;
+  }
+  p {
+    width: 381px;
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+}

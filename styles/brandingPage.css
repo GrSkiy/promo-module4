@@ -2,12 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic');
 @import "paragraphs.css";
 
-body{
+body {
+  overflow-x: hidden;
   font-family: 'Open Sans';
 }
 
 a {
   text-decoration: none;
+}
+
+p {
+  font-size: 26px;
+}
+
+.mainSmallFooter {
+  display: none;
 }
 
 header {
@@ -16,6 +25,10 @@ header {
   display: inline-block;
   display: flex;
   justify-content: space-between;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 .headerContainer {
@@ -61,7 +74,6 @@ header ul li:last-child {
 
 .brandingHeader {
   width: 178px;
-  font-weight: 700;
 }
 
 .posterHeader {
@@ -76,6 +88,9 @@ header ul li:last-child {
   width: 113px;
 }
 
+.brandingHeader a:hover {
+  font-weight: 700;
+}
 
 .posterHeader a:hover {
   font-weight: 700;
@@ -89,11 +104,40 @@ header ul li:last-child {
   font-weight: 700;
 }
 
+.burger {
+  display: none;
+}
+
+.cross {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
 
 
 
 
+.smallFlags {
+  display: none;
+}
 
+.bigBro2 {
+  display: none;
+}
+
+.obey2 {
+  display: none;
+}
+
+.construct2 {
+  display: none;
+}
+
+.mediumFlags {
+  display: none;
+}
 
 .brandingIntro {
   display: flex;
@@ -101,6 +145,25 @@ header ul li:last-child {
   flex-direction: row;
 }
 
+.introButton a {
+  position: absolute;
+  top: 586px;
+  left: 430px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.introButton a span {
+  font-weight: 700;
+  color: #CD212C;
+  font-size: 26px;
+}
+
+#buttonImg {
+  margin-top: 12px;
+  margin-left: 0;
+}
 
 h1 {
   font-size: 72px;
@@ -121,8 +184,6 @@ p {
 }
 
 .brandingIntro img {
-  width: 1076px;
-  height: 800px;
   margin-left: -50px;
   margin-top: 100px;
 }
@@ -363,7 +424,6 @@ h2 {
 
 
 
-
 .moreFooter {
   width: 100%;
   background-color: #CD212C;
@@ -381,6 +441,7 @@ h2 {
 .moreFooter h1 {
   width: 1011px;
   margin-top: 64px;
+  margin-bottom: 42px;
 }
 
 
@@ -405,6 +466,7 @@ h2 {
   font-size: 18px;
   display: inline-block;
   margin-top: -5px;
+  width: 100%;
 }
 
 .mainFooter a {
@@ -424,6 +486,10 @@ h2 {
   flex-direction: row;
 }
 
+.mainFooter Ul Li h3 {
+  font-size: 18px;
+}
+
 .logos {
   display: flex;
   width: 280px;
@@ -440,7 +506,6 @@ h2 {
 }
 
 .me h3 {
-  font-size: 18px;
   font-weight: 700;
   margin-bottom: 16px;
 }
@@ -454,7 +519,6 @@ h2 {
 .heads h3 {
   font-weight: 700;
   margin-bottom: 16px;
-  font-size: 18px;
 }
 
 .heads h4 {
@@ -490,4 +554,1098 @@ h2 {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+
+@media (max-width: 1440px) {
+  p {
+    width: 566px;
+  }
+
+  .introContainer {
+    margin-top: 142px;
+    margin-left: 142px;
+  }
+
+  .brandingReferences {
+    margin-left: 142px;
+    height: 1115px;
+  }
+
+  .bigBro {
+    width: 1140px;
+  }
+
+  .obey {
+    position: absolute;
+    top: 1385px;
+    left: 245px;
+    width: 330px;
+  }
+
+  .construct {
+    position: absolute;
+    top: 1388px;
+    left: 605px;
+    width: 678px;
+  }
+
+  .referenceContainer {
+    position: absolute;
+    left: 604px;
+    top: 1746px
+  }
+
+  .sloganContainer {
+    width: 997px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 452px; */
+    left: 300px;
+    top: 3207px;
+    margin-left: 0;
+  }
+
+  .flags img {
+    width: 350px;
+  }
+
+  .massContainer {
+    margin-left: 73px;
+    width: 1098px;
+  }
+
+  .contentContainer img {
+    width: 446px;
+  }
+
+  .brandingFlags {
+    height: 1264px;
+  }
+
+  .brandingLogo {
+    /* width: 1244px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 142px;
+    margin-top: 180px;
+}
+
+
+
+
+
+
+  .moreFooter {
+    margin-bottom: 0;
+  }
+
+  .moreFooter Ul {
+    width: 1156px;
+  }
+
+  .moreFooter ul li img{
+    width: 330px;
+  }
+
+  .moreFooter ul li h3{
+    font-size: 30px;
+  }
+
+  .mainFooter {
+    width: 100%;
+  }
+  .mainFooter ul {
+    margin-left: 144px;
+    width: 1044px;
+  }
+
+  .logos {
+    width: 210px
+  }
+  .logos img:first-of-type {
+    width: 54px;
+    height: 32px;
+  }
+  .logos img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 1152px) {
+  header ul li a {
+    font-size: 15px;
+  }
+
+  header ul {
+    width: 675px;
+  }
+
+
+
+  h1 {
+    font-size: 64px;
+  }
+
+  p {
+    font-size: 20px;
+    width: 440px;
+  }
+
+  .introContainer {
+    margin-left: 118px;
+    margin-top: 118px;
+  }
+
+  #brandingIntroImg {
+    width: 615px;
+    margin-left: -154px;
+    height: 456px;
+  }
+
+  .introButton a {
+    top: 568px;
+    left: 367px;
+  }
+
+  .brandingReferences {
+    margin-left: 118px;
+    height: 941px;
+  }
+
+  .bigBro {
+    width: 918px;
+  }
+
+  .obey {
+    width: 263px;
+    top: 1140px;
+    left: 205px;
+  }
+
+  .construct {
+    width: 541px;
+    top: 1140px;
+    left: 496px;
+  }
+
+  .referenceContainer {
+    left: 493px;
+    top: 1425px;
+  }
+
+.brandingPhylosophy {
+  margin-top: 128px;
+  }
+
+  .smallContainer {
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    color: #9F9F9F;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: -307px;
+  }
+
+  h5 {
+    margin-bottom: -12px;
+    font-size: 15px;
+  }
+
+  .slogan {
+    width: auto;
+    color: #CD212C;
+    font-size: 54px;
+  }
+
+  .sloganContainer {
+    width: 997px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 452px; */
+    left: 170px;
+    top: 2816px;
+    margin-left: 0;
+  }
+
+    .phyloText {
+    margin-top: 130px;
+    font-size: 54px;
+  }
+
+  .flags img {
+    width: 300px;
+  }
+
+  .flags {
+    width: 300px;
+  }
+
+  .massContainer {
+    margin-left: 73px;
+    width: 864px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  .brandingFlags {
+    height: 1088px;
+  }
+
+  .brandingLogo {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 115px;
+    margin-top: 180px;
+  }
+
+  .searchLogo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 1984px;
+  }
+
+  .first {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 896px;
+    margin-left: 104px;
+  }
+
+  .second {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 892px;
+    margin-left: -104px;
+  }
+
+  .third {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .fourth {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1008px;
+  }
+
+  .fifth {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 812px;
+    margin-left: -182px;
+  }
+
+  .finalLogo {
+    margin-top: 125px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .brandingLogo h2 {
+    margin-bottom: 64px;
+  }
+
+  .searchLogo p {
+    margin-top: 50px;
+  }
+
+  .third p {
+    margin-top: 0px;
+  }
+
+  .brandingIdentity {
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .brandingIdentity h2 {
+    margin-bottom: 64px;
+  }
+
+  .moreFooter ul li img {
+    width: 300px;
+  }
+
+  .moreFooter Ul {
+    width: 920px;
+  }
+
+  .moreFooter ul li h3 {
+    font-size: 24px;
+  }
+
+  .moreFooter h1 {
+    width: 900px;
+    margin-top: 64px;
+    margin-bottom: 42px;
+  }
+
+  .moreFooter Ul {
+    margin-bottom: 32px;
+  }
+
+
+
+
+
+
+
+
+
+  .mainFooter {
+    display: none;
+  }
+
+  .mainSmallFooter {
+    display: inline-block;
+    width: 100%;
+    background-color: #CD212C;
+    color: white;
+    margin-top: -10px;
+  }
+
+  .mainSmallFooter a {
+    color: white;
+  }
+
+  .massSmallFooterContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 12px;
+    height: 528px;
+  }
+  .lessSmallFooterContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px 25px 25px;
+  }
+  .smallFooterContainer1 h4 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .smallFooterContainer2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 250px;
+    margin-left: 91px;
+  }
+
+  .smallFooterContainer2 h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+
+  .smallFooterContainer2 h4 {
+    margin-bottom: 25px;
+  }
+
+  .smallFooterContainer3 {
+    display: flex;
+    justify-content: space-between;
+    width: 259px;
+  }
+  .lessSmallFooterContainer span {
+    font-size: 13px;
+    max-width: 555px;
+    min-width: 0px;
+  }
+}
+
+@media (max-width: 834px) {
+  .menu {
+    background-color: #CD212C;
+    width: 100%;
+    height: 158px;
+    align-items: center;
+    position: absolute;
+  }
+
+  .menu ul {
+    display: flex;
+    justify-content: space-between;
+    width: 739px;
+    align-items: center;
+    margin-left: 47px;
+    margin-right: 47px;
+    padding-top: 35px;
+  }
+  .menu ul li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  section span {
+    margin-right: 0px;
+}
+
+  .menu ul li span {
+    font-size: 24px;
+    color: white;
+  }
+
+  #first {
+    width: 158px;
+    line-height: 138.7%;
+  }
+
+  #second, #third, #fourth {
+    margin-left: 36px;
+  }
+
+  .brandingHeader, .posterHeader, .spaceHeader, .rebrandingHeader {
+    display: none;
+  }
+
+  .descriptor {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    margin-top: 16px;
+    margin-right: 25px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .cross {
+    display: none;
+    margin-top: 16px;
+    margin-right: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+    header ul {
+      width: auto;
+      margin-top: 0;
+      margin-right: 0;
+  }
+
+
+
+
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .introContainer {
+    margin-left: 25px;
+    margin-top: 118px;
+  }
+
+  #brandingIntroImg {
+    width: 615px;
+    margin-left: -325px;
+    height: 456px;
+    margin-top: 131px;
+  }
+
+  .introButton a {
+    top: 568px;
+    left: 223px;
+  }
+
+  .bigBro {
+    width: 834px;
+  }
+
+  .construct {
+    width: 506px;
+    top: 1129px;
+    left: 310px;
+  }
+
+  .obey {
+    width: 280px;
+    top: 1128px;
+    left: 16px;
+  }
+
+  .brandingReferences {
+    margin-left: 0;
+    height: 941px;
+  }
+
+  .referenceContainer {
+    left: 312px;
+    top: 1404px;
+  }
+
+  h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .slogan {
+    width: 480px;
+    margin-bottom: 0;
+  }
+
+  .brandingPhylosophy {
+    margin-top: 128px;
+    margin-bottom: 0px;
+  }
+
+  .phylosophyContainer {
+    background-image: url(../img/glaza2.png);
+    height: 892px;
+  }
+
+  .sloganContainer {
+    width: 609px;
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 452px; */
+    left: 170px;
+    top: 2816px;
+    margin-left: 75px;
+    margin-top: -274px;
+  }
+
+  .smallContainer {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    color: #9F9F9F;
+    font-weight: 700;
+    font-size: 18px;
+    /* margin-top: -307px; */
+    margin-top: 0;
+  }
+
+  h5 {
+    /* margin-bottom: -12px; */
+    font-size: 15px;
+  }
+
+  .phyloText {
+    margin-top: 78px;
+    font-size: 54px;
+  }
+
+  .flag1, .flag2, .flag3, .flag4 {
+    display: none;
+  }
+
+  .mediumFlags {
+    display: block;
+  }
+
+  .flags img {
+    margin-left: -68px;
+    width: 672px;
+  }
+
+  .massContainer {
+    margin-left: 121px;
+    width: 864px;
+    flex-direction: column-reverse;
+  }
+
+  .brandingFlags {
+    height: 1492px;
+  }
+
+  .massContainer {
+    margin-left: 121px;
+    width: 864px;
+    height: 1323px;
+    flex-direction: column-reverse;
+  }
+
+  .contentContainer {
+    margin-top: 0px;
+  }
+
+  .contentContainer p {
+    margin-bottom: 66px;
+  }
+
+  .img1 {
+    width: 311px;
+  }
+
+  .img2 {
+    width: 300px;
+  }
+
+  .img3 {
+    width: 433px;
+  }
+
+  .img4 {
+    width: 280px;
+  }
+  .img5 {
+    width: 278px;
+  }
+
+  .brandingLogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0;
+    /* margin-right: 25px; */
+    margin-top: 180px;
+  }
+
+  .searchLogo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 1763px;
+  }
+
+  .first {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 746px;
+    margin-left: 0;
+  }
+
+  .second {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-left: 0;
+    width: 746px;
+  }
+
+  .third {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fourth {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 746px;
+  }
+
+  .fifth {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 746px;
+    margin-left: 0;
+  }
+
+  .finalContainer p {
+    width: 523px;
+  }
+
+  .searchLogo p {
+    margin-top: 50px;
+    width: 381px;
+    /* margin-left: 8px; */
+  }
+
+  .moreFooter h1 {
+    width: 510px;
+    margin-top: 64px;
+    margin-bottom: 42px;
+    font-size: 36px;
+  }
+
+  .moreFooter ul li img {
+    width: 200px;
+  }
+
+  .moreFooter ul li h3 {
+    font-size: 20px;
+  }
+
+  .moreFooter Ul {
+    width: 709px;
+  }
+}
+
+@media (max-width: 414px) {
+  .menu {
+    height: 674px;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    width: 0;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .menu ul li {
+    margin-bottom: 140px;
+  }
+
+  #first {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #second {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #third {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #fourth {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+
+
+
+
+  h1 {
+      font-size: 36px;
+  }
+
+  p {
+    font-size: 18px;
+    width: 281px;
+  }
+
+  .introContainer {
+    margin-top: 45px;
+  }
+
+  .brandingIntro {
+    flex-direction: column;
+  }
+
+
+
+  .introButton {
+    display: none;
+  }
+
+  #brandingIntroImg {
+    width: 373px;
+    margin-left: 0;
+    height: 276px;
+    margin-top: 131px;
+  }
+
+  .bigBro {
+    display: none;
+  }
+
+  .obey {
+    display: none;
+  }
+
+  .construct {
+    display: none;
+  }
+
+
+  .bigBro2 {
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+
+  .obey2 {
+    display: block;
+    position: absolute;
+    top: 1269px;
+  }
+
+  .construct2 {
+    display: block;
+    position: absolute;
+    top: 1269px;
+    left: 113px;
+  }
+
+  .brandingReferences {
+    margin-left: 0;
+    height: 941px;
+    width: 100%;
+}
+
+  .referenceContainer {
+    left: 115px;
+    top: 1543px;
+  }
+
+  .introContainer h1 {
+    width: 364px;
+    line-height: 142.2%;
+  }
+
+  .phyloText {
+    font-size: 48px;
+    text-align: center;
+    width: 300px;
+    line-height: 144.2%;
+    margin-top: 38px;
+  }
+
+  .phylosophyContainer {
+    background-image: url(../img/glaza3.png);
+    height: 774px;
+  }
+
+  .phylosophyContainer p {
+    width: 378px;
+  }
+
+  .smallContainer h5 {
+    font-size: 18px;
+  }
+
+  .sloganContainer {
+    width: 609px;
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 452px; */
+    left: -205px;
+    top: 2998px;
+    margin-left: 75px;
+    margin-top: -274px;
+  }
+
+  .smallContainer {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    color: #9F9F9F;
+    font-weight: 700;
+    font-size: 18px;
+    /* margin-top: -307px; */
+    margin-top: 0;
+  }
+
+  .slogan {
+    width: 189px;
+    margin-bottom: 0;
+    font-size: 36px;
+  }
+
+  .contentContainer h2 {
+    width: 200px;
+  }
+
+  .massContainer {
+    margin-left: 25px;
+    width: 85%;
+    height: 1694px;
+    flex-direction: column-reverse;
+    height: 1689px;
+  }
+
+  .mediumFlags {
+    display: none;
+  }
+
+  .smallFlags {
+    display: block;
+  }
+
+  .flags img {
+    margin-left: 25px;
+    width: 320px;
+  }
+
+  .contentContainer img {
+      width: 326px;
+  }
+
+  .brandingFlags {
+    height: 1761px;
+  }
+
+  .flags {
+    width: 300px;
+  }
+
+  .contentContainer p {
+    margin-bottom: 46px;
+  }
+
+  .first {
+    flex-direction: column;
+    width: 369px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .second {
+    flex-direction: column;
+    width: 369px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .third {
+    flex-direction: column;
+    width: 369px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fourth {
+    flex-direction: column;
+    width: 369px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fifth {
+    flex-direction: column;
+    width: 369px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .searchLogo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 2664px;
+  }
+
+  .img1 {
+    width: 280px;
+  }
+
+  .img2 {
+    width: 273.32px;
+  }
+
+  .img3 {
+    width: 369px;
+  }
+
+  .img4 {
+    width: 369px;
+  }
+
+  .img5 {
+    width: 191.89px;
+  }
+
+  .finalContainer img {
+    width: 234px;
+  }
+
+  .brandingLogo h2 {
+    margin-bottom: 43px;
+    font-size: 36px;
+    width: 234px;
+    text-align: center;
+    line-height: 133.2%;
+  }
+
+  .finalContainer {
+    align-items: center;
+  }
+
+  .finalContainer p {
+    width: 362px;
+  }
+
+  p {
+    font-size:  22px;
+  }
+
+  #brandingIntroImg {
+    margin-top: 37px;
+  }
+
+
+
+
+
+
+  .moreFooter h1 {
+      width: 271px;
+      margin-top: 64px;
+      margin-bottom: 42px;
+      font-size: 36px;
+      line-height: 138.7%;
+      text-align: center;
+  }
+
+  .moreFooter Ul {
+    width: 709px;
+    flex-direction: column;
+    height: 631px;
+  }
+
+  .lessSmallFooterContainer {
+    flex-direction: column;
+  }
+
+  .lessSmallFooterContainer span {
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+
+  .smallFooterContainer2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 250px;
+    margin-left: 0;
+  }
 }
