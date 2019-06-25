@@ -4,6 +4,7 @@
 
 body{
   font-family: 'Open Sans';
+  overflow-x: hidden;
 }
 
 a {
@@ -17,6 +18,8 @@ p {
 .mainSmallFooter {
   display: none;
 }
+
+
 
 header {
   height: 64px;
@@ -688,9 +691,262 @@ header ul li:last-child {
 
 
 
+  .posterIntro h1 {
+      margin-top: 142px;
+      margin-left: 118px;
+      margin-bottom: 42px;
+      width: 1084px;
+      line-height: 98%;
+  }
+
+  .posterIntro p {
+    margin-left: 118px;
+  }
+
+  .posterIntro img {
+    margin-top: -355px;
+    width: 1164px;
+  }
+
+  .posterIntro {
+    background-color: #CD212C;
+    color: white;
+    display: inline-block;
+    height: 760px;
+  }
+
+  .introButton a {
+    position: absolute;
+    left: 430px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 615px;
+  }
+
+  .glazaPoster1 {
+    position: absolute;
+    right: 0;
+    right: 180px;
+    display: none;
+  }
+
+  .firstSmallContainer {
+    flex-direction: column-reverse;
+    height: 1340px;
+  }
+
+  .firstSmallContainer img {
+    width: 500px;
+  }
+
+  .firstSmallContainer img {
+    width: 650px;
+    margin-left: 16%;
+  }
+
+  .firstSmallContainer div {
+    margin-top: 450px;
+    margin-left: 62px;
+  }
+
+  .typoGlaza2 {
+    display: none;
+  }
+
+  .secondTypoSection div {
+    flex-direction: column;
+  }
+
+  .typoPoster2 {
+    width: 650px;
+    margin-left: 9%;
+  }
+
+  p {
+    font-size: 26px;
+    width: 540px;
+  }
+
+  .thirdTypoSection div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1148px;
+  }
+
+  .thirdTypoSection div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1148px;
+  }
+
+  .typoPoster6 {
+    width: 100%;
+    left: 0;
+  }
+
+  .typoPoster7 {
+    width: 540px;
+    left: 25px;
+    top: 4586px;
+  }
+
+  .typoPoster8 {
+    width: 561px;
+    top: 4578px;
+    right: -12px;
+  }
+
+  .fourthTypoSection {
+    width: 0;
+    margin-left: 180px;
+    display: inline-block;
+    margin-top: 64px;
+    height: 1405px;
+  }
+
+  .fourthTypoSection .postersContainer {
+    position: absolute;
+    left: 25px;
+    top: 4956px;
+  }
+
+  .secondSmallContainer img {
+
+  }
+
+  .firstGraphoSection h2 {
+    text-align: center;
+    margin-top: 64px;
+  }
+
+  .secondSmallContainer div {
+    margin-top: 64px;
+  }
+
+  .secondSmallContainer {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-left: 0;
+    flex-direction: column-reverse;
+  }
+
+  .secondSmallContainer img {
+    width: 650px;
+    margin-left: 12%;
+  }
+
+  .firstSmallContainer div {
+    margin-top: 64px;
+    margin-left: 62px;
+  }
+
+  .graphoGlaza1 {
+    display: none;
+  }
+
+  .graphoGlaza2 {
+    display: none;
+  }
+
+  .firstSmallContainer div {
+    margin-top: 64px;
+    margin-left: 96px;
+  }
+
+  .firstTypoSection {
+    margin-left: 118px;
+  }
+
+  .firstSmallContainer img {
+    width: 650px;
+    margin-left: 18%;
+  }
+
+  .secondGraphoSection p {
+    margin-top: 0;
+  }
+
+  .secondGraphoSection div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1205px;
+    margin-left: 118px;
+    margin-top: 0;
+    flex-direction: column;
+  }
+
+  .secondGraphoSection img {
+    width: 668px;
+    margin-left: 10%;
+  }
+
+  .thirdGraphoSection img {
+    width: 668px;
+    margin-left: 10%;
+  }
+
+  .thirdSmallContainer {
+    flex-direction: column-reverse;
+  }
+
+  .thirdSmallContainer div {
+    margin-top: 0;
+  }
+
+  .graphoPoster6 {
+    width: 449px;
+    top: 9518px;
+    left: 590px;
+  }
+
+  .graphoPoster5 {
+    width: 526px;
+    left: 588px;
+  }
+
+  .graphoPoster4 {
+    width: 541px;
+    left: 25px;
+  }
+
+  .fourthGraphoSection {
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 64px;
+    height: 1657px;
+  }
 
 
 
+
+
+
+  .moreFooter ul li img {
+    width: 300px;
+  }
+
+  .moreFooter Ul {
+    width: 920px;
+  }
+
+  .moreFooter ul li h3 {
+    font-size: 24px;
+  }
+
+  .moreFooter h1 {
+    width: 900px;
+    margin-top: 64px;
+    margin-bottom: 42px;
+  }
+
+  .moreFooter Ul {
+    margin-bottom: 32px;
+  }
 
   .mainFooter {
     display: none;
