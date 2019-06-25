@@ -87,6 +87,27 @@ header ul li:last-child {
 
 
 
+.introButton a {
+    position: absolute;
+    left: 433px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 674px;
+}
+.introButton a span {
+    font-weight: 700;
+    color: #CD212C;
+    font-size: 26px;
+}
+
+
+#buttonImg {
+    margin-top: 12px;
+    margin-left: 0;
+    width: auto;
+    height: 26px;
+}
 
 .rebrandingIntro {
   display: inline-block;
