@@ -81,6 +81,7 @@ header ul li:last-child {
 
 .posterHeader {
   width: 84px;
+  font-weight: 700;
 }
 
 .spaceHeader {
@@ -320,6 +321,11 @@ header ul li:last-child {
 
 
 
+
+.graphoGlaza2 {
+  position: absolute;
+  left: 1100px;
+}
 
 
 .moreFooter {
@@ -566,19 +572,20 @@ header ul li:last-child {
 
   .typoPoster7 {
     width: 564px;
-    left: 142px;
-    top: 4143px;;
+    left: 175px;
+    top: 4505px;
   }
 
   .typoPoster8 {
     width: 562px;
-    top: 4135px;
+    right: 25px;
+    top: 4495px;
   }
 
   .fourthTypoSection .postersContainer {
     position: absolute;
     left: 142px;
-    top: 4542px;
+    top: 5085px;
   }
 
   .fourthTypoSection {
