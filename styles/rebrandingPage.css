@@ -509,3 +509,27 @@ header ul li:last-child {
   justify-content: space-between;
   flex-direction: column;
 }
+
+.error {
+  display: none;
+}
+
+.error h1{
+  color: #CD212C;
+}
+.error h2{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+
+@media (max-width: 1440px) {
+  header, .rebrandingIntro, .pattern, .character, .font, .rebrandingLogo, .rebrandingIdentity, footer {
+    display: none;
+  }
+
+  .error {
+    display: block;
+  }
+}
